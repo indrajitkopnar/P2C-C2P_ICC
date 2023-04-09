@@ -1,0 +1,16 @@
+<h1>demonstration of child to parent component and parent to child component communication</h1>
+
+
+<app-demo (Myevent)="MessageFromChild=$event"></app-demo>
+<h1>{{MessageFromChild}}</h1>
+
+
+
+
+
+
+
+<app-demo [MessageFromParent1] = "Message1"></app-demo>
+
+
+
